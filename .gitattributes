@@ -1,0 +1,7 @@
+*.safetensors binary
+*.bin binary
+*.model binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+

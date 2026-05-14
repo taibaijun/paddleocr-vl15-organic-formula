@@ -1,0 +1,6 @@
+This repository contains project code, evaluation artifacts, examples, and a LoRA adapter for organic chemical structure recognition with PaddleOCR-VL-1.5.
+
+The PaddleOCR-VL-1.5 base model is not included. Users must obtain the base model separately and comply with its license and usage terms.
+
+The included LoRA adapter is intended to be loaded together with PaddleOCR-VL-1.5.
+

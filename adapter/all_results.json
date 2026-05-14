@@ -1,0 +1,9 @@
+﻿{
+    "cpu_available_memory": 469.98,
+    "cpu_used_memory": 29.29,
+    "progress_or_epoch": 1.0,
+    "train_loss": 0.027196363050622705,
+    "train_runtime": 11288.9275,
+    "train_samples_per_second": 7.9745,
+    "train_steps_per_second": 0.3323
+}

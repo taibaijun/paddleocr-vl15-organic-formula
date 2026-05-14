@@ -1,0 +1,2490 @@
+{
+    "total":  30,
+    "exact_match":  4,
+    "exact_accuracy":  0.13333333333333333,
+    "set_match":  4,
+    "set_accuracy":  0.13333333333333333,
+    "counts_exact":  4,
+    "counts_total":  30,
+    "counts_accuracy":  0.13333333333333333,
+    "block_count_match":  30,
+    "block_count_accuracy":  1,
+    "formula_item_hits":  81,
+    "formula_item_targets":  120,
+    "formula_item_predictions":  120,
+    "formula_item_recall":  0.675,
+    "formula_item_precision":  0.675,
+    "formula_item_f1":  0.675,
+    "results":  [
+                    {
+                        "id":  "probe_0003",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C12H17ClOS",
+                                                "C6H18ClN5O",
+                                                "C9H17ClN2",
+                                                "C6H16N4O2"
+                                            ],
+                        "pred_formulas":  [
+                                              "C12H17ClOS",
+                                              "C6H18ClN5O",
+                                              "C9H17ClN2",
+                                              "C6H15N4O2"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  12,
+                                                  "H":  17,
+                                                  "O":  1,
+                                                  "S":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  6,
+                                                  "H":  18,
+                                                  "N":  5,
+                                                  "O":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  17,
+                                                  "N":  2,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  6,
+                                                  "H":  16,
+                                                  "N":  4,
+                                                  "O":  2
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  12,
+                                                "H":  17,
+                                                "O":  1,
+                                                "S":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  6,
+                                                "H":  18,
+                                                "N":  5,
+                                                "O":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  9,
+                                                "H":  17,
+                                                "N":  2,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  6,
+                                                "H":  15,
+                                                "N":  4,
+                                                "O":  2
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C12H17ClOS\",\"elemental_counts\":{\"C\":12,\"H\":17,\"O\":1,\"S\":1,\"Cl\":1}},{\"formula\":\"C6H18ClN5O\",\"elemental_counts\":{\"C\":6,\"H\":18,\"N\":5,\"O\":1,\"Cl\":1}},{\"formula\":\"C9H17ClN2\",\"elemental_counts\":{\"C\":9,\"H\":17,\"N\":2,\"Cl\":1}},{\"formula\":\"C6H15N4O2\",\"elemental_counts\":{\"C\":6,\"H\":15,\"N\":4,\"O\":2}}]}",
+                        "eval_row_index":  3,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0004",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C12H23ClO",
+                                                "C5H7NS2",
+                                                "C7H18N2O2",
+                                                "C8H19N3O2"
+                                            ],
+                        "pred_formulas":  [
+                                              "C12H23ClO",
+                                              "C5H8NS2",
+                                              "C7H18N2O2",
+                                              "C8H19N3O2"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  12,
+                                                  "H":  23,
+                                                  "O":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  5,
+                                                  "H":  7,
+                                                  "N":  1,
+                                                  "S":  2
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  18,
+                                                  "N":  2,
+                                                  "O":  2
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  19,
+                                                  "N":  3,
+                                                  "O":  2
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  12,
+                                                "H":  23,
+                                                "O":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  5,
+                                                "H":  8,
+                                                "N":  1,
+                                                "S":  2
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  18,
+                                                "N":  2,
+                                                "O":  2
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  19,
+                                                "N":  3,
+                                                "O":  2
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C12H23ClO\",\"elemental_counts\":{\"C\":12,\"H\":23,\"O\":1,\"Cl\":1}},{\"formula\":\"C5H8NS2\",\"elemental_counts\":{\"C\":5,\"H\":8,\"N\":1,\"S\":2}},{\"formula\":\"C7H18N2O2\",\"elemental_counts\":{\"C\":7,\"H\":18,\"N\":2,\"O\":2}},{\"formula\":\"C8H19N3O2\",\"elemental_counts\":{\"C\":8,\"H\":19,\"N\":3,\"O\":2}}]}",
+                        "eval_row_index":  4,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0007",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C6H14Br2ClF2N5",
+                                                "C2H5FN2",
+                                                "C5H9ClO",
+                                                "C10H19ClN2O"
+                                            ],
+                        "pred_formulas":  [
+                                              "C7H16BrClF2N5",
+                                              "C2H5FN2",
+                                              "C5H9ClO",
+                                              "C10H19ClN2O"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  6,
+                                                  "H":  14,
+                                                  "N":  5,
+                                                  "F":  2,
+                                                  "Cl":  1,
+                                                  "Br":  2
+                                              },
+                                              {
+                                                  "C":  2,
+                                                  "H":  5,
+                                                  "N":  2,
+                                                  "F":  1
+                                              },
+                                              {
+                                                  "C":  5,
+                                                  "H":  9,
+                                                  "O":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  10,
+                                                  "H":  19,
+                                                  "N":  2,
+                                                  "O":  1,
+                                                  "Cl":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  7,
+                                                "H":  16,
+                                                "N":  5,
+                                                "F":  2,
+                                                "Cl":  1,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  2,
+                                                "H":  5,
+                                                "N":  2,
+                                                "F":  1
+                                            },
+                                            {
+                                                "C":  5,
+                                                "H":  9,
+                                                "O":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  10,
+                                                "H":  19,
+                                                "N":  2,
+                                                "O":  1,
+                                                "Cl":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C7H16BrClF2N5\",\"elemental_counts\":{\"C\":7,\"H\":16,\"N\":5,\"F\":2,\"Cl\":1,\"Br\":1}},{\"formula\":\"C2H5FN2\",\"elemental_counts\":{\"C\":2,\"H\":5,\"N\":2,\"F\":1}},{\"formula\":\"C5H9ClO\",\"elemental_counts\":{\"C\":5,\"H\":9,\"O\":1,\"Cl\":1}},{\"formula\":\"C10H19ClN2O\",\"elemental_counts\":{\"C\":10,\"H\":19,\"N\":2,\"O\":1,\"Cl\":1}}]}",
+                        "eval_row_index":  7,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0008",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C7H10ClF",
+                                                "C9H14ClNO5",
+                                                "C11H25N",
+                                                "C7H13ClN2OS"
+                                            ],
+                        "pred_formulas":  [
+                                              "C7H10ClF",
+                                              "C9H15ClNO5",
+                                              "C11H25N",
+                                              "C7H13ClN2OS"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  7,
+                                                  "H":  10,
+                                                  "F":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  14,
+                                                  "N":  1,
+                                                  "O":  5,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  11,
+                                                  "H":  25,
+                                                  "N":  1
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  13,
+                                                  "N":  2,
+                                                  "O":  1,
+                                                  "S":  1,
+                                                  "Cl":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  7,
+                                                "H":  10,
+                                                "F":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  9,
+                                                "H":  15,
+                                                "N":  1,
+                                                "O":  5,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  11,
+                                                "H":  25,
+                                                "N":  1
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  13,
+                                                "N":  2,
+                                                "O":  1,
+                                                "S":  1,
+                                                "Cl":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C7H10ClF\",\"elemental_counts\":{\"C\":7,\"H\":10,\"F\":1,\"Cl\":1}},{\"formula\":\"C9H15ClNO5\",\"elemental_counts\":{\"C\":9,\"H\":15,\"N\":1,\"O\":5,\"Cl\":1}},{\"formula\":\"C11H25N\",\"elemental_counts\":{\"C\":11,\"H\":25,\"N\":1}},{\"formula\":\"C7H13ClN2OS\",\"elemental_counts\":{\"C\":7,\"H\":13,\"N\":2,\"O\":1,\"S\":1,\"Cl\":1}}]}",
+                        "eval_row_index":  8,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0010",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C8H16FN",
+                                                "C2H6BrClN2O2",
+                                                "C7H15ClN2O3S",
+                                                "C16H33NO"
+                                            ],
+                        "pred_formulas":  [
+                                              "C8H16FN",
+                                              "C2H6BrClN2O3",
+                                              "C7H15ClN2O3S",
+                                              "C15H30N2O"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  8,
+                                                  "H":  16,
+                                                  "N":  1,
+                                                  "F":  1
+                                              },
+                                              {
+                                                  "C":  2,
+                                                  "H":  6,
+                                                  "N":  2,
+                                                  "O":  2,
+                                                  "Cl":  1,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  15,
+                                                  "N":  2,
+                                                  "O":  3,
+                                                  "S":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  16,
+                                                  "H":  33,
+                                                  "N":  1,
+                                                  "O":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  8,
+                                                "H":  16,
+                                                "N":  1,
+                                                "F":  1
+                                            },
+                                            {
+                                                "C":  2,
+                                                "H":  6,
+                                                "N":  2,
+                                                "O":  3,
+                                                "Cl":  1,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  15,
+                                                "N":  2,
+                                                "O":  3,
+                                                "S":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  15,
+                                                "H":  30,
+                                                "N":  2,
+                                                "O":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C8H16FN\",\"elemental_counts\":{\"C\":8,\"H\":16,\"N\":1,\"F\":1}},{\"formula\":\"C2H6BrClN2O3\",\"elemental_counts\":{\"C\":2,\"H\":6,\"N\":2,\"O\":3,\"Cl\":1,\"Br\":1}},{\"formula\":\"C7H15ClN2O3S\",\"elemental_counts\":{\"C\":7,\"H\":15,\"N\":2,\"O\":3,\"S\":1,\"Cl\":1}},{\"formula\":\"C15H30N2O\",\"elemental_counts\":{\"C\":15,\"H\":30,\"N\":2,\"O\":1}}]}",
+                        "eval_row_index":  10,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0011",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C4H5FO",
+                                                "C3H6BrCl",
+                                                "C8H20N2O",
+                                                "C9H16BrClFNO3S"
+                                            ],
+                        "pred_formulas":  [
+                                              "C4H5FO",
+                                              "C3H6BrCl",
+                                              "C8H20N2O",
+                                              "C9H15BrClFNO3S"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  4,
+                                                  "H":  5,
+                                                  "O":  1,
+                                                  "F":  1
+                                              },
+                                              {
+                                                  "C":  3,
+                                                  "H":  6,
+                                                  "Cl":  1,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  20,
+                                                  "N":  2,
+                                                  "O":  1
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  16,
+                                                  "N":  1,
+                                                  "O":  3,
+                                                  "S":  1,
+                                                  "F":  1,
+                                                  "Cl":  1,
+                                                  "Br":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  4,
+                                                "H":  5,
+                                                "O":  1,
+                                                "F":  1
+                                            },
+                                            {
+                                                "C":  3,
+                                                "H":  6,
+                                                "Cl":  1,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  20,
+                                                "N":  2,
+                                                "O":  1
+                                            },
+                                            {
+                                                "C":  9,
+                                                "H":  15,
+                                                "N":  1,
+                                                "O":  3,
+                                                "S":  1,
+                                                "F":  1,
+                                                "Cl":  1,
+                                                "Br":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C4H5FO\",\"elemental_counts\":{\"C\":4,\"H\":5,\"O\":1,\"F\":1}},{\"formula\":\"C3H6BrCl\",\"elemental_counts\":{\"C\":3,\"H\":6,\"Cl\":1,\"Br\":1}},{\"formula\":\"C8H20N2O\",\"elemental_counts\":{\"C\":8,\"H\":20,\"N\":2,\"O\":1}},{\"formula\":\"C9H15BrClFNO3S\",\"elemental_counts\":{\"C\":9,\"H\":15,\"N\":1,\"O\":3,\"S\":1,\"F\":1,\"Cl\":1,\"Br\":1}}]}",
+                        "eval_row_index":  11,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0012",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C11H9FO6",
+                                                "C7H15Br",
+                                                "C10H11FO3",
+                                                "C6H8S"
+                                            ],
+                        "pred_formulas":  [
+                                              "C10H8O6",
+                                              "C7H15Br",
+                                              "C10H11FO3",
+                                              "C6H8OS"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  11,
+                                                  "H":  9,
+                                                  "O":  6,
+                                                  "F":  1
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  15,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  10,
+                                                  "H":  11,
+                                                  "O":  3,
+                                                  "F":  1
+                                              },
+                                              {
+                                                  "C":  6,
+                                                  "H":  8,
+                                                  "S":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  10,
+                                                "H":  8,
+                                                "O":  6
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  15,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  10,
+                                                "H":  11,
+                                                "O":  3,
+                                                "F":  1
+                                            },
+                                            {
+                                                "C":  6,
+                                                "H":  8,
+                                                "O":  1,
+                                                "S":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C10H8O6\",\"elemental_counts\":{\"C\":10,\"H\":8,\"O\":6}},{\"formula\":\"C7H15Br\",\"elemental_counts\":{\"C\":7,\"H\":15,\"Br\":1}},{\"formula\":\"C10H11FO3\",\"elemental_counts\":{\"C\":10,\"H\":11,\"O\":3,\"F\":1}},{\"formula\":\"C6H8OS\",\"elemental_counts\":{\"C\":6,\"H\":8,\"O\":1,\"S\":1}}]}",
+                        "eval_row_index":  12,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0013",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C7H10BrNO",
+                                                "C10H20BrN3O",
+                                                "C4H7BrN2",
+                                                "C9H21NO3"
+                                            ],
+                        "pred_formulas":  [
+                                              "C7H9BrNO",
+                                              "C10H19BrN3O",
+                                              "C4H7BrN2",
+                                              "C9H21NO3"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  7,
+                                                  "H":  10,
+                                                  "N":  1,
+                                                  "O":  1,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  10,
+                                                  "H":  20,
+                                                  "N":  3,
+                                                  "O":  1,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  4,
+                                                  "H":  7,
+                                                  "N":  2,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  21,
+                                                  "N":  1,
+                                                  "O":  3
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  7,
+                                                "H":  9,
+                                                "N":  1,
+                                                "O":  1,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  10,
+                                                "H":  19,
+                                                "N":  3,
+                                                "O":  1,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  4,
+                                                "H":  7,
+                                                "N":  2,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  9,
+                                                "H":  21,
+                                                "N":  1,
+                                                "O":  3
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C7H9BrNO\",\"elemental_counts\":{\"C\":7,\"H\":9,\"N\":1,\"O\":1,\"Br\":1}},{\"formula\":\"C10H19BrN3O\",\"elemental_counts\":{\"C\":10,\"H\":19,\"N\":3,\"O\":1,\"Br\":1}},{\"formula\":\"C4H7BrN2\",\"elemental_counts\":{\"C\":4,\"H\":7,\"N\":2,\"Br\":1}},{\"formula\":\"C9H21NO3\",\"elemental_counts\":{\"C\":9,\"H\":21,\"N\":1,\"O\":3}}]}",
+                        "eval_row_index":  13,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0015",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C11H17NO3",
+                                                "C6H13BrN2O3",
+                                                "C7H12BrNO3",
+                                                "C2H5NO3S3"
+                                            ],
+                        "pred_formulas":  [
+                                              "C11H16O3",
+                                              "C6H13N3O2",
+                                              "C7H12BrNO3",
+                                              "C2H5NO3S3"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  11,
+                                                  "H":  17,
+                                                  "N":  1,
+                                                  "O":  3
+                                              },
+                                              {
+                                                  "C":  6,
+                                                  "H":  13,
+                                                  "N":  2,
+                                                  "O":  3,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  12,
+                                                  "N":  1,
+                                                  "O":  3,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  2,
+                                                  "H":  5,
+                                                  "N":  1,
+                                                  "O":  3,
+                                                  "S":  3
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  11,
+                                                "H":  16,
+                                                "O":  3
+                                            },
+                                            {
+                                                "C":  6,
+                                                "H":  13,
+                                                "N":  3,
+                                                "O":  2
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  12,
+                                                "N":  1,
+                                                "O":  3,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  2,
+                                                "H":  5,
+                                                "N":  1,
+                                                "O":  3,
+                                                "S":  3
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C11H16O3\",\"elemental_counts\":{\"C\":11,\"H\":16,\"O\":3}},{\"formula\":\"C6H13N3O2\",\"elemental_counts\":{\"C\":6,\"H\":13,\"N\":3,\"O\":2}},{\"formula\":\"C7H12BrNO3\",\"elemental_counts\":{\"C\":7,\"H\":12,\"N\":1,\"O\":3,\"Br\":1}},{\"formula\":\"C2H5NO3S3\",\"elemental_counts\":{\"C\":2,\"H\":5,\"N\":1,\"O\":3,\"S\":3}}]}",
+                        "eval_row_index":  15,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0016",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C9H19NO3S",
+                                                "C8H17NO2",
+                                                "C12H23Cl2FO2",
+                                                "C8H11Br2Cl"
+                                            ],
+                        "pred_formulas":  [
+                                              "C9H18NO3S",
+                                              "C8H16NO2",
+                                              "C12H23Cl2FO2",
+                                              "C8H11Br2Cl"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  9,
+                                                  "H":  19,
+                                                  "N":  1,
+                                                  "O":  3,
+                                                  "S":  1
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  17,
+                                                  "N":  1,
+                                                  "O":  2
+                                              },
+                                              {
+                                                  "C":  12,
+                                                  "H":  23,
+                                                  "O":  2,
+                                                  "F":  1,
+                                                  "Cl":  2
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  11,
+                                                  "Cl":  1,
+                                                  "Br":  2
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  9,
+                                                "H":  18,
+                                                "N":  1,
+                                                "O":  3,
+                                                "S":  1
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  16,
+                                                "N":  1,
+                                                "O":  2
+                                            },
+                                            {
+                                                "C":  12,
+                                                "H":  23,
+                                                "O":  2,
+                                                "F":  1,
+                                                "Cl":  2
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  11,
+                                                "Cl":  1,
+                                                "Br":  2
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C9H18NO3S\",\"elemental_counts\":{\"C\":9,\"H\":18,\"N\":1,\"O\":3,\"S\":1}},{\"formula\":\"C8H16NO2\",\"elemental_counts\":{\"C\":8,\"H\":16,\"N\":1,\"O\":2}},{\"formula\":\"C12H23Cl2FO2\",\"elemental_counts\":{\"C\":12,\"H\":23,\"O\":2,\"F\":1,\"Cl\":2}},{\"formula\":\"C8H11Br2Cl\",\"elemental_counts\":{\"C\":8,\"H\":11,\"Cl\":1,\"Br\":2}}]}",
+                        "eval_row_index":  16,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0017",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C11H21BrCl2FN3OS",
+                                                "C11H19ClOS",
+                                                "C6H12O2S",
+                                                "C4H5Cl"
+                                            ],
+                        "pred_formulas":  [
+                                              "C11H21BrCl2FN3OS",
+                                              "C11H18ClOS",
+                                              "C6H12O2S",
+                                              "C4H5Cl"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  11,
+                                                  "H":  21,
+                                                  "N":  3,
+                                                  "O":  1,
+                                                  "S":  1,
+                                                  "F":  1,
+                                                  "Cl":  2,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  11,
+                                                  "H":  19,
+                                                  "O":  1,
+                                                  "S":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  6,
+                                                  "H":  12,
+                                                  "O":  2,
+                                                  "S":  1
+                                              },
+                                              {
+                                                  "C":  4,
+                                                  "H":  5,
+                                                  "Cl":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  11,
+                                                "H":  21,
+                                                "N":  3,
+                                                "O":  1,
+                                                "S":  1,
+                                                "F":  1,
+                                                "Cl":  2,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  11,
+                                                "H":  18,
+                                                "O":  1,
+                                                "S":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  6,
+                                                "H":  12,
+                                                "O":  2,
+                                                "S":  1
+                                            },
+                                            {
+                                                "C":  4,
+                                                "H":  5,
+                                                "Cl":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C11H21BrCl2FN3OS\",\"elemental_counts\":{\"C\":11,\"H\":21,\"N\":3,\"O\":1,\"S\":1,\"F\":1,\"Cl\":2,\"Br\":1}},{\"formula\":\"C11H18ClOS\",\"elemental_counts\":{\"C\":11,\"H\":18,\"O\":1,\"S\":1,\"Cl\":1}},{\"formula\":\"C6H12O2S\",\"elemental_counts\":{\"C\":6,\"H\":12,\"O\":2,\"S\":1}},{\"formula\":\"C4H5Cl\",\"elemental_counts\":{\"C\":4,\"H\":5,\"Cl\":1}}]}",
+                        "eval_row_index":  17,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0018",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C5H9BrCl2FN3O3S",
+                                                "C9H18O",
+                                                "C12H23BrF2N2OS2",
+                                                "C5H9ClO2"
+                                            ],
+                        "pred_formulas":  [
+                                              "C5H9BrCl2FN3O3S",
+                                              "C8H16O",
+                                              "C11H21BrFN2OS2",
+                                              "C5H9ClO2"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  5,
+                                                  "H":  9,
+                                                  "N":  3,
+                                                  "O":  3,
+                                                  "S":  1,
+                                                  "F":  1,
+                                                  "Cl":  2,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  18,
+                                                  "O":  1
+                                              },
+                                              {
+                                                  "C":  12,
+                                                  "H":  23,
+                                                  "N":  2,
+                                                  "O":  1,
+                                                  "S":  2,
+                                                  "F":  2,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  5,
+                                                  "H":  9,
+                                                  "O":  2,
+                                                  "Cl":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  5,
+                                                "H":  9,
+                                                "N":  3,
+                                                "O":  3,
+                                                "S":  1,
+                                                "F":  1,
+                                                "Cl":  2,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  16,
+                                                "O":  1
+                                            },
+                                            {
+                                                "C":  11,
+                                                "H":  21,
+                                                "N":  2,
+                                                "O":  1,
+                                                "S":  2,
+                                                "F":  1,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  5,
+                                                "H":  9,
+                                                "O":  2,
+                                                "Cl":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C5H9BrCl2FN3O3S\",\"elemental_counts\":{\"C\":5,\"H\":9,\"N\":3,\"O\":3,\"S\":1,\"F\":1,\"Cl\":2,\"Br\":1}},{\"formula\":\"C8H16O\",\"elemental_counts\":{\"C\":8,\"H\":16,\"O\":1}},{\"formula\":\"C11H21BrFN2OS2\",\"elemental_counts\":{\"C\":11,\"H\":21,\"N\":2,\"O\":1,\"S\":2,\"F\":1,\"Br\":1}},{\"formula\":\"C5H9ClO2\",\"elemental_counts\":{\"C\":5,\"H\":9,\"O\":2,\"Cl\":1}}]}",
+                        "eval_row_index":  18,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0019",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C5H3Cl2NO5",
+                                                "C8H10O2",
+                                                "C4H6ClF2NO",
+                                                "C8H19BrN2O2"
+                                            ],
+                        "pred_formulas":  [
+                                              "C6H7ClO6",
+                                              "C8H10O2",
+                                              "C4H6ClF2NO",
+                                              "C8H20BrN2O2"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  5,
+                                                  "H":  3,
+                                                  "N":  1,
+                                                  "O":  5,
+                                                  "Cl":  2
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  10,
+                                                  "O":  2
+                                              },
+                                              {
+                                                  "C":  4,
+                                                  "H":  6,
+                                                  "N":  1,
+                                                  "O":  1,
+                                                  "F":  2,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  19,
+                                                  "N":  2,
+                                                  "O":  2,
+                                                  "Br":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  6,
+                                                "H":  7,
+                                                "O":  6,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  10,
+                                                "O":  2
+                                            },
+                                            {
+                                                "C":  4,
+                                                "H":  6,
+                                                "N":  1,
+                                                "O":  1,
+                                                "F":  2,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  20,
+                                                "N":  2,
+                                                "O":  2,
+                                                "Br":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C6H7ClO6\",\"elemental_counts\":{\"C\":6,\"H\":7,\"O\":6,\"Cl\":1}},{\"formula\":\"C8H10O2\",\"elemental_counts\":{\"C\":8,\"H\":10,\"O\":2}},{\"formula\":\"C4H6ClF2NO\",\"elemental_counts\":{\"C\":4,\"H\":6,\"N\":1,\"O\":1,\"F\":2,\"Cl\":1}},{\"formula\":\"C8H20BrN2O2\",\"elemental_counts\":{\"C\":8,\"H\":20,\"N\":2,\"O\":2,\"Br\":1}}]}",
+                        "eval_row_index":  19,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0020",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C10H17F2NO4S2",
+                                                "C11H23ClS",
+                                                "C4H6O3S",
+                                                "C7H14O"
+                                            ],
+                        "pred_formulas":  [
+                                              "C10H16FNO3S2",
+                                              "C11H23ClS",
+                                              "C4H6O3S",
+                                              "C7H14O"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  10,
+                                                  "H":  17,
+                                                  "N":  1,
+                                                  "O":  4,
+                                                  "S":  2,
+                                                  "F":  2
+                                              },
+                                              {
+                                                  "C":  11,
+                                                  "H":  23,
+                                                  "S":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  4,
+                                                  "H":  6,
+                                                  "O":  3,
+                                                  "S":  1
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  14,
+                                                  "O":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  10,
+                                                "H":  16,
+                                                "N":  1,
+                                                "O":  3,
+                                                "S":  2,
+                                                "F":  1
+                                            },
+                                            {
+                                                "C":  11,
+                                                "H":  23,
+                                                "S":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  4,
+                                                "H":  6,
+                                                "O":  3,
+                                                "S":  1
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  14,
+                                                "O":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C10H16FNO3S2\",\"elemental_counts\":{\"C\":10,\"H\":16,\"N\":1,\"O\":3,\"S\":2,\"F\":1}},{\"formula\":\"C11H23ClS\",\"elemental_counts\":{\"C\":11,\"H\":23,\"S\":1,\"Cl\":1}},{\"formula\":\"C4H6O3S\",\"elemental_counts\":{\"C\":4,\"H\":6,\"O\":3,\"S\":1}},{\"formula\":\"C7H14O\",\"elemental_counts\":{\"C\":7,\"H\":14,\"O\":1}}]}",
+                        "eval_row_index":  20,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0021",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C8H8ClFO4",
+                                                "C6H13FO",
+                                                "C6H12ClFN2O3",
+                                                "C10H14BrNO2"
+                                            ],
+                        "pred_formulas":  [
+                                              "C8H8ClFO4",
+                                              "C6H13FO",
+                                              "C7H13Cl2FNO3",
+                                              "C10H14BrNO2"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  8,
+                                                  "H":  8,
+                                                  "O":  4,
+                                                  "F":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  6,
+                                                  "H":  13,
+                                                  "O":  1,
+                                                  "F":  1
+                                              },
+                                              {
+                                                  "C":  6,
+                                                  "H":  12,
+                                                  "N":  2,
+                                                  "O":  3,
+                                                  "F":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  10,
+                                                  "H":  14,
+                                                  "N":  1,
+                                                  "O":  2,
+                                                  "Br":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  8,
+                                                "H":  8,
+                                                "O":  4,
+                                                "F":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  6,
+                                                "H":  13,
+                                                "O":  1,
+                                                "F":  1
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  13,
+                                                "N":  1,
+                                                "O":  3,
+                                                "F":  1,
+                                                "Cl":  2
+                                            },
+                                            {
+                                                "C":  10,
+                                                "H":  14,
+                                                "N":  1,
+                                                "O":  2,
+                                                "Br":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C8H8ClFO4\",\"elemental_counts\":{\"C\":8,\"H\":8,\"O\":4,\"F\":1,\"Cl\":1}},{\"formula\":\"C6H13FO\",\"elemental_counts\":{\"C\":6,\"H\":13,\"O\":1,\"F\":1}},{\"formula\":\"C7H13Cl2FNO3\",\"elemental_counts\":{\"C\":7,\"H\":13,\"N\":1,\"O\":3,\"F\":1,\"Cl\":2}},{\"formula\":\"C10H14BrNO2\",\"elemental_counts\":{\"C\":10,\"H\":14,\"N\":1,\"O\":2,\"Br\":1}}]}",
+                        "eval_row_index":  21,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0022",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C5H11ClN2O",
+                                                "C8H16BrNO3S2",
+                                                "C15H29NO",
+                                                "C9H15Br2ClFNO3"
+                                            ],
+                        "pred_formulas":  [
+                                              "C5H11ClN2O",
+                                              "C8H16BrNO3S2",
+                                              "C15H28NO",
+                                              "C8H13Br2ClFNO3"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  5,
+                                                  "H":  11,
+                                                  "N":  2,
+                                                  "O":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  16,
+                                                  "N":  1,
+                                                  "O":  3,
+                                                  "S":  2,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  15,
+                                                  "H":  29,
+                                                  "N":  1,
+                                                  "O":  1
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  15,
+                                                  "N":  1,
+                                                  "O":  3,
+                                                  "F":  1,
+                                                  "Cl":  1,
+                                                  "Br":  2
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  5,
+                                                "H":  11,
+                                                "N":  2,
+                                                "O":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  16,
+                                                "N":  1,
+                                                "O":  3,
+                                                "S":  2,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  15,
+                                                "H":  28,
+                                                "N":  1,
+                                                "O":  1
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  13,
+                                                "N":  1,
+                                                "O":  3,
+                                                "F":  1,
+                                                "Cl":  1,
+                                                "Br":  2
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C5H11ClN2O\",\"elemental_counts\":{\"C\":5,\"H\":11,\"N\":2,\"O\":1,\"Cl\":1}},{\"formula\":\"C8H16BrNO3S2\",\"elemental_counts\":{\"C\":8,\"H\":16,\"N\":1,\"O\":3,\"S\":2,\"Br\":1}},{\"formula\":\"C15H28NO\",\"elemental_counts\":{\"C\":15,\"H\":28,\"N\":1,\"O\":1}},{\"formula\":\"C8H13Br2ClFNO3\",\"elemental_counts\":{\"C\":8,\"H\":13,\"N\":1,\"O\":3,\"F\":1,\"Cl\":1,\"Br\":2}}]}",
+                        "eval_row_index":  22,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0023",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C10H18ClNO",
+                                                "C11H16BrF2N",
+                                                "C9H15BrO3",
+                                                "C10H19Cl2F2N3OS"
+                                            ],
+                        "pred_formulas":  [
+                                              "C10H18ClNO",
+                                              "C12H16BrF2N",
+                                              "C9H15BrO3",
+                                              "C10H19Cl2FN3OS"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  10,
+                                                  "H":  18,
+                                                  "N":  1,
+                                                  "O":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  11,
+                                                  "H":  16,
+                                                  "N":  1,
+                                                  "F":  2,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  15,
+                                                  "O":  3,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  10,
+                                                  "H":  19,
+                                                  "N":  3,
+                                                  "O":  1,
+                                                  "S":  1,
+                                                  "F":  2,
+                                                  "Cl":  2
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  10,
+                                                "H":  18,
+                                                "N":  1,
+                                                "O":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  12,
+                                                "H":  16,
+                                                "N":  1,
+                                                "F":  2,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  9,
+                                                "H":  15,
+                                                "O":  3,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  10,
+                                                "H":  19,
+                                                "N":  3,
+                                                "O":  1,
+                                                "S":  1,
+                                                "F":  1,
+                                                "Cl":  2
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C10H18ClNO\",\"elemental_counts\":{\"C\":10,\"H\":18,\"N\":1,\"O\":1,\"Cl\":1}},{\"formula\":\"C12H16BrF2N\",\"elemental_counts\":{\"C\":12,\"H\":16,\"N\":1,\"F\":2,\"Br\":1}},{\"formula\":\"C9H15BrO3\",\"elemental_counts\":{\"C\":9,\"H\":15,\"O\":3,\"Br\":1}},{\"formula\":\"C10H19Cl2FN3OS\",\"elemental_counts\":{\"C\":10,\"H\":19,\"N\":3,\"O\":1,\"S\":1,\"F\":1,\"Cl\":2}}]}",
+                        "eval_row_index":  23,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0025",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C6H12Cl2O",
+                                                "C9H7NO2",
+                                                "C12H21ClFNOS2",
+                                                "C10H21ClFN5O2"
+                                            ],
+                        "pred_formulas":  [
+                                              "C6H12Cl2O",
+                                              "C9H7NO2",
+                                              "C11H19ClFNOS2",
+                                              "C10H19ClFN4O2"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  6,
+                                                  "H":  12,
+                                                  "O":  1,
+                                                  "Cl":  2
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  7,
+                                                  "N":  1,
+                                                  "O":  2
+                                              },
+                                              {
+                                                  "C":  12,
+                                                  "H":  21,
+                                                  "N":  1,
+                                                  "O":  1,
+                                                  "S":  2,
+                                                  "F":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  10,
+                                                  "H":  21,
+                                                  "N":  5,
+                                                  "O":  2,
+                                                  "F":  1,
+                                                  "Cl":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  6,
+                                                "H":  12,
+                                                "O":  1,
+                                                "Cl":  2
+                                            },
+                                            {
+                                                "C":  9,
+                                                "H":  7,
+                                                "N":  1,
+                                                "O":  2
+                                            },
+                                            {
+                                                "C":  11,
+                                                "H":  19,
+                                                "N":  1,
+                                                "O":  1,
+                                                "S":  2,
+                                                "F":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  10,
+                                                "H":  19,
+                                                "N":  4,
+                                                "O":  2,
+                                                "F":  1,
+                                                "Cl":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C6H12Cl2O\",\"elemental_counts\":{\"C\":6,\"H\":12,\"O\":1,\"Cl\":2}},{\"formula\":\"C9H7NO2\",\"elemental_counts\":{\"C\":9,\"H\":7,\"N\":1,\"O\":2}},{\"formula\":\"C11H19ClFNOS2\",\"elemental_counts\":{\"C\":11,\"H\":19,\"N\":1,\"O\":1,\"S\":2,\"F\":1,\"Cl\":1}},{\"formula\":\"C10H19ClFN4O2\",\"elemental_counts\":{\"C\":10,\"H\":19,\"N\":4,\"O\":2,\"F\":1,\"Cl\":1}}]}",
+                        "eval_row_index":  25,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0027",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C3H7NO",
+                                                "C8H13BrClF2N3O2",
+                                                "C8H6N2O",
+                                                "C2H6BrNO3"
+                                            ],
+                        "pred_formulas":  [
+                                              "C3H7NO",
+                                              "C8H13BrClFN3O2",
+                                              "C8H6N2O",
+                                              "C2H6BrNO3"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  3,
+                                                  "H":  7,
+                                                  "N":  1,
+                                                  "O":  1
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  13,
+                                                  "N":  3,
+                                                  "O":  2,
+                                                  "F":  2,
+                                                  "Cl":  1,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  6,
+                                                  "N":  2,
+                                                  "O":  1
+                                              },
+                                              {
+                                                  "C":  2,
+                                                  "H":  6,
+                                                  "N":  1,
+                                                  "O":  3,
+                                                  "Br":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  3,
+                                                "H":  7,
+                                                "N":  1,
+                                                "O":  1
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  13,
+                                                "N":  3,
+                                                "O":  2,
+                                                "F":  1,
+                                                "Cl":  1,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  6,
+                                                "N":  2,
+                                                "O":  1
+                                            },
+                                            {
+                                                "C":  2,
+                                                "H":  6,
+                                                "N":  1,
+                                                "O":  3,
+                                                "Br":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C3H7NO\",\"elemental_counts\":{\"C\":3,\"H\":7,\"N\":1,\"O\":1}},{\"formula\":\"C8H13BrClFN3O2\",\"elemental_counts\":{\"C\":8,\"H\":13,\"N\":3,\"O\":2,\"F\":1,\"Cl\":1,\"Br\":1}},{\"formula\":\"C8H6N2O\",\"elemental_counts\":{\"C\":8,\"H\":6,\"N\":2,\"O\":1}},{\"formula\":\"C2H6BrNO3\",\"elemental_counts\":{\"C\":2,\"H\":6,\"N\":1,\"O\":3,\"Br\":1}}]}",
+                        "eval_row_index":  27,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0028",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C4H8F2O2",
+                                                "C4H10N2",
+                                                "C8H14BrNO3S",
+                                                "C4H4BrNO"
+                                            ],
+                        "pred_formulas":  [
+                                              "C4H8F2O2",
+                                              "C4H10N2",
+                                              "C8H14BrNO3S",
+                                              "C4H4BrNO"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  4,
+                                                  "H":  8,
+                                                  "O":  2,
+                                                  "F":  2
+                                              },
+                                              {
+                                                  "C":  4,
+                                                  "H":  10,
+                                                  "N":  2
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  14,
+                                                  "N":  1,
+                                                  "O":  3,
+                                                  "S":  1,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  4,
+                                                  "H":  4,
+                                                  "N":  1,
+                                                  "O":  1,
+                                                  "Br":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  4,
+                                                "H":  8,
+                                                "O":  2,
+                                                "F":  2
+                                            },
+                                            {
+                                                "C":  4,
+                                                "H":  10,
+                                                "N":  2
+                                            },
+                                            {
+                                                "C":  8,
+                                                "H":  14,
+                                                "N":  1,
+                                                "O":  3,
+                                                "S":  1,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  4,
+                                                "H":  4,
+                                                "N":  1,
+                                                "O":  1,
+                                                "Br":  1
+                                            }
+                                        ],
+                        "exact_match":  true,
+                        "set_match":  true,
+                        "counts_match":  true,
+                        "formula_overlap":  4,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C4H8F2O2\",\"elemental_counts\":{\"C\":4,\"H\":8,\"O\":2,\"F\":2}},{\"formula\":\"C4H10N2\",\"elemental_counts\":{\"C\":4,\"H\":10,\"N\":2}},{\"formula\":\"C8H14BrNO3S\",\"elemental_counts\":{\"C\":8,\"H\":14,\"N\":1,\"O\":3,\"S\":1,\"Br\":1}},{\"formula\":\"C4H4BrNO\",\"elemental_counts\":{\"C\":4,\"H\":4,\"N\":1,\"O\":1,\"Br\":1}}]}",
+                        "eval_row_index":  28,
+                        "sample_formula_f1":  1
+                    },
+                    {
+                        "id":  "probe_0029",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C8H18ClNO",
+                                                "C9H20O",
+                                                "C11H21BrFN",
+                                                "C5H4BrNS"
+                                            ],
+                        "pred_formulas":  [
+                                              "C8H18ClNO",
+                                              "C9H20O",
+                                              "C11H21BrFN",
+                                              "C5H4BrNS"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  8,
+                                                  "H":  18,
+                                                  "N":  1,
+                                                  "O":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  20,
+                                                  "O":  1
+                                              },
+                                              {
+                                                  "C":  11,
+                                                  "H":  21,
+                                                  "N":  1,
+                                                  "F":  1,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  5,
+                                                  "H":  4,
+                                                  "N":  1,
+                                                  "S":  1,
+                                                  "Br":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  8,
+                                                "H":  18,
+                                                "N":  1,
+                                                "O":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  9,
+                                                "H":  20,
+                                                "O":  1
+                                            },
+                                            {
+                                                "C":  11,
+                                                "H":  21,
+                                                "N":  1,
+                                                "F":  1,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  5,
+                                                "H":  4,
+                                                "N":  1,
+                                                "S":  1,
+                                                "Br":  1
+                                            }
+                                        ],
+                        "exact_match":  true,
+                        "set_match":  true,
+                        "counts_match":  true,
+                        "formula_overlap":  4,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C8H18ClNO\",\"elemental_counts\":{\"C\":8,\"H\":18,\"N\":1,\"O\":1,\"Cl\":1}},{\"formula\":\"C9H20O\",\"elemental_counts\":{\"C\":9,\"H\":20,\"O\":1}},{\"formula\":\"C11H21BrFN\",\"elemental_counts\":{\"C\":11,\"H\":21,\"N\":1,\"F\":1,\"Br\":1}},{\"formula\":\"C5H4BrNS\",\"elemental_counts\":{\"C\":5,\"H\":4,\"N\":1,\"S\":1,\"Br\":1}}]}",
+                        "eval_row_index":  29,
+                        "sample_formula_f1":  1
+                    },
+                    {
+                        "id":  "probe_0030",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C7H13ClO6",
+                                                "C7H11Cl2FO2",
+                                                "C14H30O",
+                                                "C16H32O"
+                                            ],
+                        "pred_formulas":  [
+                                              "C7H13ClO6",
+                                              "C7H11Cl2FO2",
+                                              "C14H29O",
+                                              "C17H33O"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  7,
+                                                  "H":  13,
+                                                  "O":  6,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  11,
+                                                  "O":  2,
+                                                  "F":  1,
+                                                  "Cl":  2
+                                              },
+                                              {
+                                                  "C":  14,
+                                                  "H":  30,
+                                                  "O":  1
+                                              },
+                                              {
+                                                  "C":  16,
+                                                  "H":  32,
+                                                  "O":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  7,
+                                                "H":  13,
+                                                "O":  6,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  11,
+                                                "O":  2,
+                                                "F":  1,
+                                                "Cl":  2
+                                            },
+                                            {
+                                                "C":  14,
+                                                "H":  29,
+                                                "O":  1
+                                            },
+                                            {
+                                                "C":  17,
+                                                "H":  33,
+                                                "O":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C7H13ClO6\",\"elemental_counts\":{\"C\":7,\"H\":13,\"O\":6,\"Cl\":1}},{\"formula\":\"C7H11Cl2FO2\",\"elemental_counts\":{\"C\":7,\"H\":11,\"O\":2,\"F\":1,\"Cl\":2}},{\"formula\":\"C14H29O\",\"elemental_counts\":{\"C\":14,\"H\":29,\"O\":1}},{\"formula\":\"C17H33O\",\"elemental_counts\":{\"C\":17,\"H\":33,\"O\":1}}]}",
+                        "eval_row_index":  30,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0031",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C13H16N2O",
+                                                "C3H8ClNO2",
+                                                "C15H22O",
+                                                "C7H15ClO4"
+                                            ],
+                        "pred_formulas":  [
+                                              "C13H16N2O",
+                                              "C3H8ClNO2",
+                                              "C14H21O",
+                                              "C7H15ClO4"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  13,
+                                                  "H":  16,
+                                                  "N":  2,
+                                                  "O":  1
+                                              },
+                                              {
+                                                  "C":  3,
+                                                  "H":  8,
+                                                  "N":  1,
+                                                  "O":  2,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  15,
+                                                  "H":  22,
+                                                  "O":  1
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  15,
+                                                  "O":  4,
+                                                  "Cl":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  13,
+                                                "H":  16,
+                                                "N":  2,
+                                                "O":  1
+                                            },
+                                            {
+                                                "C":  3,
+                                                "H":  8,
+                                                "N":  1,
+                                                "O":  2,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  14,
+                                                "H":  21,
+                                                "O":  1
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  15,
+                                                "O":  4,
+                                                "Cl":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C13H16N2O\",\"elemental_counts\":{\"C\":13,\"H\":16,\"N\":2,\"O\":1}},{\"formula\":\"C3H8ClNO2\",\"elemental_counts\":{\"C\":3,\"H\":8,\"N\":1,\"O\":2,\"Cl\":1}},{\"formula\":\"C14H21O\",\"elemental_counts\":{\"C\":14,\"H\":21,\"O\":1}},{\"formula\":\"C7H15ClO4\",\"elemental_counts\":{\"C\":7,\"H\":15,\"O\":4,\"Cl\":1}}]}",
+                        "eval_row_index":  31,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0032",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C4H3FOS",
+                                                "C11H20N2O4S",
+                                                "C2H5ClO",
+                                                "C13H16Br2ClNO2"
+                                            ],
+                        "pred_formulas":  [
+                                              "C4H3FO2S",
+                                              "C11H20N2O4S",
+                                              "C2H5ClO",
+                                              "C13H17Br2ClNO2"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  4,
+                                                  "H":  3,
+                                                  "O":  1,
+                                                  "S":  1,
+                                                  "F":  1
+                                              },
+                                              {
+                                                  "C":  11,
+                                                  "H":  20,
+                                                  "N":  2,
+                                                  "O":  4,
+                                                  "S":  1
+                                              },
+                                              {
+                                                  "C":  2,
+                                                  "H":  5,
+                                                  "O":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  13,
+                                                  "H":  16,
+                                                  "N":  1,
+                                                  "O":  2,
+                                                  "Cl":  1,
+                                                  "Br":  2
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  4,
+                                                "H":  3,
+                                                "O":  2,
+                                                "S":  1,
+                                                "F":  1
+                                            },
+                                            {
+                                                "C":  11,
+                                                "H":  20,
+                                                "N":  2,
+                                                "O":  4,
+                                                "S":  1
+                                            },
+                                            {
+                                                "C":  2,
+                                                "H":  5,
+                                                "O":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  13,
+                                                "H":  17,
+                                                "N":  1,
+                                                "O":  2,
+                                                "Cl":  1,
+                                                "Br":  2
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C4H3FO2S\",\"elemental_counts\":{\"C\":4,\"H\":3,\"O\":2,\"S\":1,\"F\":1}},{\"formula\":\"C11H20N2O4S\",\"elemental_counts\":{\"C\":11,\"H\":20,\"N\":2,\"O\":4,\"S\":1}},{\"formula\":\"C2H5ClO\",\"elemental_counts\":{\"C\":2,\"H\":5,\"O\":1,\"Cl\":1}},{\"formula\":\"C13H17Br2ClNO2\",\"elemental_counts\":{\"C\":13,\"H\":17,\"N\":1,\"O\":2,\"Cl\":1,\"Br\":2}}]}",
+                        "eval_row_index":  32,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0034",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C10H18BrCl2NO4",
+                                                "C6H11FO2",
+                                                "C12H27ClN2O2S2",
+                                                "C9H22N2O5S"
+                                            ],
+                        "pred_formulas":  [
+                                              "C10H18BrCl2NO4",
+                                              "C6H11FO2",
+                                              "C12H27ClN2O2S2",
+                                              "C9H22N2O5S"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  10,
+                                                  "H":  18,
+                                                  "N":  1,
+                                                  "O":  4,
+                                                  "Cl":  2,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  6,
+                                                  "H":  11,
+                                                  "O":  2,
+                                                  "F":  1
+                                              },
+                                              {
+                                                  "C":  12,
+                                                  "H":  27,
+                                                  "N":  2,
+                                                  "O":  2,
+                                                  "S":  2,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  22,
+                                                  "N":  2,
+                                                  "O":  5,
+                                                  "S":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  10,
+                                                "H":  18,
+                                                "N":  1,
+                                                "O":  4,
+                                                "Cl":  2,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  6,
+                                                "H":  11,
+                                                "O":  2,
+                                                "F":  1
+                                            },
+                                            {
+                                                "C":  12,
+                                                "H":  27,
+                                                "N":  2,
+                                                "O":  2,
+                                                "S":  2,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  9,
+                                                "H":  22,
+                                                "N":  2,
+                                                "O":  5,
+                                                "S":  1
+                                            }
+                                        ],
+                        "exact_match":  true,
+                        "set_match":  true,
+                        "counts_match":  true,
+                        "formula_overlap":  4,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C10H18BrCl2NO4\",\"elemental_counts\":{\"C\":10,\"H\":18,\"N\":1,\"O\":4,\"Cl\":2,\"Br\":1}},{\"formula\":\"C6H11FO2\",\"elemental_counts\":{\"C\":6,\"H\":11,\"O\":2,\"F\":1}},{\"formula\":\"C12H27ClN2O2S2\",\"elemental_counts\":{\"C\":12,\"H\":27,\"N\":2,\"O\":2,\"S\":2,\"Cl\":1}},{\"formula\":\"C9H22N2O5S\",\"elemental_counts\":{\"C\":9,\"H\":22,\"N\":2,\"O\":5,\"S\":1}}]}",
+                        "eval_row_index":  34,
+                        "sample_formula_f1":  1
+                    },
+                    {
+                        "id":  "probe_0035",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C6H12N2O2",
+                                                "C12H24BrNO2S3",
+                                                "C5H14N2S",
+                                                "C6H9NO2"
+                                            ],
+                        "pred_formulas":  [
+                                              "C6H12N2O2",
+                                              "C12H24BrNO2S2",
+                                              "C5H14N2S",
+                                              "C6H9NO2"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  6,
+                                                  "H":  12,
+                                                  "N":  2,
+                                                  "O":  2
+                                              },
+                                              {
+                                                  "C":  12,
+                                                  "H":  24,
+                                                  "N":  1,
+                                                  "O":  2,
+                                                  "S":  3,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  5,
+                                                  "H":  14,
+                                                  "N":  2,
+                                                  "S":  1
+                                              },
+                                              {
+                                                  "C":  6,
+                                                  "H":  9,
+                                                  "N":  1,
+                                                  "O":  2
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  6,
+                                                "H":  12,
+                                                "N":  2,
+                                                "O":  2
+                                            },
+                                            {
+                                                "C":  12,
+                                                "H":  24,
+                                                "N":  1,
+                                                "O":  2,
+                                                "S":  2,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  5,
+                                                "H":  14,
+                                                "N":  2,
+                                                "S":  1
+                                            },
+                                            {
+                                                "C":  6,
+                                                "H":  9,
+                                                "N":  1,
+                                                "O":  2
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C6H12N2O2\",\"elemental_counts\":{\"C\":6,\"H\":12,\"N\":2,\"O\":2}},{\"formula\":\"C12H24BrNO2S2\",\"elemental_counts\":{\"C\":12,\"H\":24,\"N\":1,\"O\":2,\"S\":2,\"Br\":1}},{\"formula\":\"C5H14N2S\",\"elemental_counts\":{\"C\":5,\"H\":14,\"N\":2,\"S\":1}},{\"formula\":\"C6H9NO2\",\"elemental_counts\":{\"C\":6,\"H\":9,\"N\":1,\"O\":2}}]}",
+                        "eval_row_index":  35,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0036",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C8H16BrN3O2",
+                                                "C13H22BrCl2NO2S",
+                                                "C8H15NO2",
+                                                "C7H15FS2"
+                                            ],
+                        "pred_formulas":  [
+                                              "C9H17BrN3O2",
+                                              "C13H22BrCl2NO2S",
+                                              "C9H17NO2",
+                                              "C7H15FS2"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  8,
+                                                  "H":  16,
+                                                  "N":  3,
+                                                  "O":  2,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  13,
+                                                  "H":  22,
+                                                  "N":  1,
+                                                  "O":  2,
+                                                  "S":  1,
+                                                  "Cl":  2,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  8,
+                                                  "H":  15,
+                                                  "N":  1,
+                                                  "O":  2
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  15,
+                                                  "S":  2,
+                                                  "F":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  9,
+                                                "H":  17,
+                                                "N":  3,
+                                                "O":  2,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  13,
+                                                "H":  22,
+                                                "N":  1,
+                                                "O":  2,
+                                                "S":  1,
+                                                "Cl":  2,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  9,
+                                                "H":  17,
+                                                "N":  1,
+                                                "O":  2
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  15,
+                                                "S":  2,
+                                                "F":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  2,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C9H17BrN3O2\",\"elemental_counts\":{\"C\":9,\"H\":17,\"N\":3,\"O\":2,\"Br\":1}},{\"formula\":\"C13H22BrCl2NO2S\",\"elemental_counts\":{\"C\":13,\"H\":22,\"N\":1,\"O\":2,\"S\":1,\"Cl\":2,\"Br\":1}},{\"formula\":\"C9H17NO2\",\"elemental_counts\":{\"C\":9,\"H\":17,\"N\":1,\"O\":2}},{\"formula\":\"C7H15FS2\",\"elemental_counts\":{\"C\":7,\"H\":15,\"S\":2,\"F\":1}}]}",
+                        "eval_row_index":  36,
+                        "sample_formula_f1":  0.5
+                    },
+                    {
+                        "id":  "probe_0038",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C7H12N2O2",
+                                                "C9H10BrClFNO3",
+                                                "C10H13FO",
+                                                "C13H27NS"
+                                            ],
+                        "pred_formulas":  [
+                                              "C7H12N2O2",
+                                              "C9H9BrClFNO3",
+                                              "C10H13FO",
+                                              "C13H27NS"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  7,
+                                                  "H":  12,
+                                                  "N":  2,
+                                                  "O":  2
+                                              },
+                                              {
+                                                  "C":  9,
+                                                  "H":  10,
+                                                  "N":  1,
+                                                  "O":  3,
+                                                  "F":  1,
+                                                  "Cl":  1,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  10,
+                                                  "H":  13,
+                                                  "O":  1,
+                                                  "F":  1
+                                              },
+                                              {
+                                                  "C":  13,
+                                                  "H":  27,
+                                                  "N":  1,
+                                                  "S":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  7,
+                                                "H":  12,
+                                                "N":  2,
+                                                "O":  2
+                                            },
+                                            {
+                                                "C":  9,
+                                                "H":  9,
+                                                "N":  1,
+                                                "O":  3,
+                                                "F":  1,
+                                                "Cl":  1,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  10,
+                                                "H":  13,
+                                                "O":  1,
+                                                "F":  1
+                                            },
+                                            {
+                                                "C":  13,
+                                                "H":  27,
+                                                "N":  1,
+                                                "S":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C7H12N2O2\",\"elemental_counts\":{\"C\":7,\"H\":12,\"N\":2,\"O\":2}},{\"formula\":\"C9H9BrClFNO3\",\"elemental_counts\":{\"C\":9,\"H\":9,\"N\":1,\"O\":3,\"F\":1,\"Cl\":1,\"Br\":1}},{\"formula\":\"C10H13FO\",\"elemental_counts\":{\"C\":10,\"H\":13,\"O\":1,\"F\":1}},{\"formula\":\"C13H27NS\",\"elemental_counts\":{\"C\":13,\"H\":27,\"N\":1,\"S\":1}}]}",
+                        "eval_row_index":  38,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0039",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C9H8N2O4",
+                                                "C3H6OS",
+                                                "C7H10O",
+                                                "C7H14ClNO"
+                                            ],
+                        "pred_formulas":  [
+                                              "C9H8N2O4",
+                                              "C3H6OS",
+                                              "C7H10O",
+                                              "C7H13ClNO"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  9,
+                                                  "H":  8,
+                                                  "N":  2,
+                                                  "O":  4
+                                              },
+                                              {
+                                                  "C":  3,
+                                                  "H":  6,
+                                                  "O":  1,
+                                                  "S":  1
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  10,
+                                                  "O":  1
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  14,
+                                                  "N":  1,
+                                                  "O":  1,
+                                                  "Cl":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  9,
+                                                "H":  8,
+                                                "N":  2,
+                                                "O":  4
+                                            },
+                                            {
+                                                "C":  3,
+                                                "H":  6,
+                                                "O":  1,
+                                                "S":  1
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  10,
+                                                "O":  1
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  13,
+                                                "N":  1,
+                                                "O":  1,
+                                                "Cl":  1
+                                            }
+                                        ],
+                        "exact_match":  false,
+                        "set_match":  false,
+                        "counts_match":  false,
+                        "formula_overlap":  3,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C9H8N2O4\",\"elemental_counts\":{\"C\":9,\"H\":8,\"N\":2,\"O\":4}},{\"formula\":\"C3H6OS\",\"elemental_counts\":{\"C\":3,\"H\":6,\"O\":1,\"S\":1}},{\"formula\":\"C7H10O\",\"elemental_counts\":{\"C\":7,\"H\":10,\"O\":1}},{\"formula\":\"C7H13ClNO\",\"elemental_counts\":{\"C\":7,\"H\":13,\"N\":1,\"O\":1,\"Cl\":1}}]}",
+                        "eval_row_index":  39,
+                        "sample_formula_f1":  0.75
+                    },
+                    {
+                        "id":  "probe_0040",
+                        "variant":  "multi_formula_probe",
+                        "target_formulas":  [
+                                                "C5H4BrNO2",
+                                                "C6H11FO",
+                                                "C7H17ClN2O2S",
+                                                "C5H10S"
+                                            ],
+                        "pred_formulas":  [
+                                              "C5H4BrNO2",
+                                              "C6H11FO",
+                                              "C7H17ClN2O2S",
+                                              "C5H10S"
+                                          ],
+                        "target_counts":  [
+                                              {
+                                                  "C":  5,
+                                                  "H":  4,
+                                                  "N":  1,
+                                                  "O":  2,
+                                                  "Br":  1
+                                              },
+                                              {
+                                                  "C":  6,
+                                                  "H":  11,
+                                                  "O":  1,
+                                                  "F":  1
+                                              },
+                                              {
+                                                  "C":  7,
+                                                  "H":  17,
+                                                  "N":  2,
+                                                  "O":  2,
+                                                  "S":  1,
+                                                  "Cl":  1
+                                              },
+                                              {
+                                                  "C":  5,
+                                                  "H":  10,
+                                                  "S":  1
+                                              }
+                                          ],
+                        "pred_counts":  [
+                                            {
+                                                "C":  5,
+                                                "H":  4,
+                                                "N":  1,
+                                                "O":  2,
+                                                "Br":  1
+                                            },
+                                            {
+                                                "C":  6,
+                                                "H":  11,
+                                                "O":  1,
+                                                "F":  1
+                                            },
+                                            {
+                                                "C":  7,
+                                                "H":  17,
+                                                "N":  2,
+                                                "O":  2,
+                                                "S":  1,
+                                                "Cl":  1
+                                            },
+                                            {
+                                                "C":  5,
+                                                "H":  10,
+                                                "S":  1
+                                            }
+                                        ],
+                        "exact_match":  true,
+                        "set_match":  true,
+                        "counts_match":  true,
+                        "formula_overlap":  4,
+                        "target_block_count":  4,
+                        "pred_block_count":  4,
+                        "prediction_escaped":  "{\"blocks\":[{\"formula\":\"C5H4BrNO2\",\"elemental_counts\":{\"C\":5,\"H\":4,\"N\":1,\"O\":2,\"Br\":1}},{\"formula\":\"C6H11FO\",\"elemental_counts\":{\"C\":6,\"H\":11,\"O\":1,\"F\":1}},{\"formula\":\"C7H17ClN2O2S\",\"elemental_counts\":{\"C\":7,\"H\":17,\"N\":2,\"O\":2,\"S\":1,\"Cl\":1}},{\"formula\":\"C5H10S\",\"elemental_counts\":{\"C\":5,\"H\":10,\"S\":1}}]}",
+                        "eval_row_index":  40,
+                        "sample_formula_f1":  1
+                    }
+                ],
+    "evaluation_set":  "hard_multistructure_probe_30"
+}
